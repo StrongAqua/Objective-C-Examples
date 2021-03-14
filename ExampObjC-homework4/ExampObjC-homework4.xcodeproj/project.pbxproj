@@ -12,6 +12,7 @@
 		FE1545E125FE5C6500B69CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1545E025FE5C6500B69CA6 /* Assets.xcassets */; };
 		FE1545E425FE5C6500B69CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1545E225FE5C6500B69CA6 /* LaunchScreen.storyboard */; };
 		FE1545E725FE5C6500B69CA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1545E625FE5C6500B69CA6 /* main.m */; };
+		FE95A15F25FE753E00960CA8 /* LocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = FE95A15E25FE753E00960CA8 /* LocationManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		FE1545E325FE5C6500B69CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE1545E525FE5C6500B69CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1545E625FE5C6500B69CA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE95A15D25FE753E00960CA8 /* LocationManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LocationManager.h; sourceTree = "<group>"; };
+		FE95A15E25FE753E00960CA8 /* LocationManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LocationManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				FE1545DA25FE5C6300B69CA6 /* ViewController.h */,
 				FE1545DB25FE5C6300B69CA6 /* ViewController.m */,
+				FE95A15D25FE753E00960CA8 /* LocationManager.h */,
+				FE95A15E25FE753E00960CA8 /* LocationManager.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE95A15F25FE753E00960CA8 /* LocationManager.m in Sources */,
 				FE1545DC25FE5C6300B69CA6 /* ViewController.m in Sources */,
 				FE1545D625FE5C6300B69CA6 /* AppDelegate.m in Sources */,
 				FE1545E725FE5C6500B69CA6 /* main.m in Sources */,
