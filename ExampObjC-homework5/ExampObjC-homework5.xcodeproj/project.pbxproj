@@ -12,10 +12,15 @@
 		FE1545E125FE5C6500B69CA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE1545E025FE5C6500B69CA6 /* Assets.xcassets */; };
 		FE1545E425FE5C6500B69CA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE1545E225FE5C6500B69CA6 /* LaunchScreen.storyboard */; };
 		FE1545E725FE5C6500B69CA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE1545E625FE5C6500B69CA6 /* main.m */; };
+		FE2AE84E26010AB700E9E85A /* PhotoForCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2AE84D26010AB700E9E85A /* PhotoForCollectionView.m */; };
+		FE2AE85726010F1300E9E85A /* CustomViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2AE85626010F1300E9E85A /* CustomViewCell.m */; };
+		FE2AE85D26013BD100E9E85A /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2AE85C26013BD100E9E85A /* ResultsViewController.m */; };
+		FE2AE863260141A700E9E85A /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2AE862260141A700E9E85A /* TabBarController.m */; };
+		FE2AE8672601425900E9E85A /* AnotherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2AE8662601425900E9E85A /* AnotherViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FE1545D125FE5C6300B69CA6 /* ExampObjC-homework4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExampObjC-homework4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE1545D125FE5C6300B69CA6 /* ExampObjC-homework5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ExampObjC-homework5.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE1545D425FE5C6300B69CA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FE1545D525FE5C6300B69CA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		FE1545DA25FE5C6300B69CA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -24,6 +29,16 @@
 		FE1545E325FE5C6500B69CA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE1545E525FE5C6500B69CA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE1545E625FE5C6500B69CA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FE2AE84C26010AB700E9E85A /* PhotoForCollectionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoForCollectionView.h; sourceTree = "<group>"; };
+		FE2AE84D26010AB700E9E85A /* PhotoForCollectionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoForCollectionView.m; sourceTree = "<group>"; };
+		FE2AE85526010F1300E9E85A /* CustomViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomViewCell.h; sourceTree = "<group>"; };
+		FE2AE85626010F1300E9E85A /* CustomViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomViewCell.m; sourceTree = "<group>"; };
+		FE2AE85B26013BD100E9E85A /* ResultsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		FE2AE85C26013BD100E9E85A /* ResultsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		FE2AE861260141A700E9E85A /* TabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
+		FE2AE862260141A700E9E85A /* TabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		FE2AE8652601425900E9E85A /* AnotherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnotherViewController.h; sourceTree = "<group>"; };
+		FE2AE8662601425900E9E85A /* AnotherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnotherViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +55,7 @@
 		FE1545C825FE5C6300B69CA6 = {
 			isa = PBXGroup;
 			children = (
-				FE1545D325FE5C6300B69CA6 /* ExampObjC-homework4 */,
+				FE1545D325FE5C6300B69CA6 /* ExampObjC-homework5 */,
 				FE1545D225FE5C6300B69CA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,19 +63,20 @@
 		FE1545D225FE5C6300B69CA6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FE1545D125FE5C6300B69CA6 /* ExampObjC-homework4.app */,
+				FE1545D125FE5C6300B69CA6 /* ExampObjC-homework5.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FE1545D325FE5C6300B69CA6 /* ExampObjC-homework4 */ = {
+		FE1545D325FE5C6300B69CA6 /* ExampObjC-homework5 */ = {
 			isa = PBXGroup;
 			children = (
 				FE1545F025FE5D1500B69CA6 /* App */,
-				FE1545F325FE5DFA00B69CA6 /* Main */,
+				FE1545F325FE5DFA00B69CA6 /* Controllers */,
+				FE2AE84B26010A6200E9E85A /* Models */,
 				FE1545F125FE5DA100B69CA6 /* Resourses */,
 			);
-			path = "ExampObjC-homework4";
+			path = "ExampObjC-homework5";
 			sourceTree = "<group>";
 		};
 		FE1545F025FE5D1500B69CA6 /* App */ = {
@@ -83,21 +99,38 @@
 			path = Resourses;
 			sourceTree = "<group>";
 		};
-		FE1545F325FE5DFA00B69CA6 /* Main */ = {
+		FE1545F325FE5DFA00B69CA6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
 				FE1545DA25FE5C6300B69CA6 /* ViewController.h */,
 				FE1545DB25FE5C6300B69CA6 /* ViewController.m */,
+				FE2AE85526010F1300E9E85A /* CustomViewCell.h */,
+				FE2AE85626010F1300E9E85A /* CustomViewCell.m */,
+				FE2AE85B26013BD100E9E85A /* ResultsViewController.h */,
+				FE2AE85C26013BD100E9E85A /* ResultsViewController.m */,
+				FE2AE861260141A700E9E85A /* TabBarController.h */,
+				FE2AE862260141A700E9E85A /* TabBarController.m */,
+				FE2AE8652601425900E9E85A /* AnotherViewController.h */,
+				FE2AE8662601425900E9E85A /* AnotherViewController.m */,
 			);
-			path = Main;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FE2AE84B26010A6200E9E85A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE2AE84C26010AB700E9E85A /* PhotoForCollectionView.h */,
+				FE2AE84D26010AB700E9E85A /* PhotoForCollectionView.m */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FE1545D025FE5C6300B69CA6 /* ExampObjC-homework4 */ = {
+		FE1545D025FE5C6300B69CA6 /* ExampObjC-homework5 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FE1545EA25FE5C6500B69CA6 /* Build configuration list for PBXNativeTarget "ExampObjC-homework4" */;
+			buildConfigurationList = FE1545EA25FE5C6500B69CA6 /* Build configuration list for PBXNativeTarget "ExampObjC-homework5" */;
 			buildPhases = (
 				FE1545CD25FE5C6300B69CA6 /* Sources */,
 				FE1545CE25FE5C6300B69CA6 /* Frameworks */,
@@ -107,9 +140,9 @@
 			);
 			dependencies = (
 			);
-			name = "ExampObjC-homework4";
+			name = "ExampObjC-homework5";
 			productName = "ExampObjC-homework4";
-			productReference = FE1545D125FE5C6300B69CA6 /* ExampObjC-homework4.app */;
+			productReference = FE1545D125FE5C6300B69CA6 /* ExampObjC-homework5.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -125,7 +158,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FE1545CC25FE5C6300B69CA6 /* Build configuration list for PBXProject "ExampObjC-homework4" */;
+			buildConfigurationList = FE1545CC25FE5C6300B69CA6 /* Build configuration list for PBXProject "ExampObjC-homework5" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -138,7 +171,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FE1545D025FE5C6300B69CA6 /* ExampObjC-homework4 */,
+				FE1545D025FE5C6300B69CA6 /* ExampObjC-homework5 */,
 			);
 		};
 /* End PBXProject section */
@@ -160,9 +193,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE2AE863260141A700E9E85A /* TabBarController.m in Sources */,
 				FE1545DC25FE5C6300B69CA6 /* ViewController.m in Sources */,
+				FE2AE8672601425900E9E85A /* AnotherViewController.m in Sources */,
+				FE2AE85726010F1300E9E85A /* CustomViewCell.m in Sources */,
 				FE1545D625FE5C6300B69CA6 /* AppDelegate.m in Sources */,
+				FE2AE85D26013BD100E9E85A /* ResultsViewController.m in Sources */,
 				FE1545E725FE5C6500B69CA6 /* main.m in Sources */,
+				FE2AE84E26010AB700E9E85A /* PhotoForCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,12 +336,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ExampObjC-homework4/Resourses/Info.plist";
+				INFOPLIST_FILE = "ExampObjC-homework5/Resourses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Alla.ExampObjC-homework4";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alla.ExampObjC-homework5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -315,12 +353,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "ExampObjC-homework4/Resourses/Info.plist";
+				INFOPLIST_FILE = "ExampObjC-homework5/Resourses/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Alla.ExampObjC-homework4";
+				PRODUCT_BUNDLE_IDENTIFIER = "Alla.ExampObjC-homework5";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -329,7 +367,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FE1545CC25FE5C6300B69CA6 /* Build configuration list for PBXProject "ExampObjC-homework4" */ = {
+		FE1545CC25FE5C6300B69CA6 /* Build configuration list for PBXProject "ExampObjC-homework5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE1545E825FE5C6500B69CA6 /* Debug */,
@@ -338,7 +376,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FE1545EA25FE5C6500B69CA6 /* Build configuration list for PBXNativeTarget "ExampObjC-homework4" */ = {
+		FE1545EA25FE5C6500B69CA6 /* Build configuration list for PBXNativeTarget "ExampObjC-homework5" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE1545EB25FE5C6500B69CA6 /* Debug */,
